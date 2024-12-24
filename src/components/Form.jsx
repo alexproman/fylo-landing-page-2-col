@@ -46,7 +46,7 @@ const Form = ({
     <form onSubmit={handleSubmit} action="index.html" noValidate className={
         `relative ${containerStyles}`}>
       <div className="relative">
-        <input type="email" name="email" id="email"  placeholder={inputPlaceholder} autoComplete="off" value={email}
+        <input type="email" name="email"   placeholder={inputPlaceholder} autoComplete="off" value={email}
           onChange={handleInputChange}
           className={
             `text-gray-900 outline-0
